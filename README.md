@@ -1,1 +1,1 @@
-# lingua-tech
+# lingua-tech-web.github.io

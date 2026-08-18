@@ -1,0 +1,62 @@
+.bg-light {
+  background-color: var(--bg-gray);
+}
+
+.opp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.opp-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  text-align: center;
+  border-top: 4px solid var(--primary);
+  transition: transform 0.3s ease;
+}
+
+.opp-card:hover {
+  transform: translateY(-5px);
+}
+
+.opp-icon,
+.opp-card-icon {
+  color: var(--primary);
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+
+.opp-card h4 {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-dark);
+}
+
+.opp-card p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.cta-container {
+  background: linear-gradient(135deg, var(--primary) 0%, #2563eb 100%);
+  border-radius: 20px;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.2);
+}
+
+.cta-container h3 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.cta-container p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-bottom: 2rem;
+}

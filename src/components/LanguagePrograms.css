@@ -1,0 +1,50 @@
+.bg-gray {
+  background-color: var(--bg-gray);
+}
+
+.language-header {
+  margin-bottom: 3rem;
+  max-width: 800px;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.m-0 {
+  margin-bottom: 0;
+}
+
+.language-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.language-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border-left: 4px solid transparent;
+}
+
+.language-card:hover {
+  transform: translateX(10px);
+  border-left-color: var(--secondary);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.flag-icon {
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.language-name {
+  font-size: 1.25rem;
+  color: var(--text-dark);
+}

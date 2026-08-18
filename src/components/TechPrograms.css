@@ -1,0 +1,86 @@
+.tech-section {
+  background-color: var(--bg-dark);
+  position: relative;
+}
+
+.tech-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top right, rgba(30, 58, 138, 0.4) 0%, transparent 40%),
+    radial-gradient(circle at bottom left, rgba(20, 184, 166, 0.2) 0%, transparent 40%);
+  z-index: 0;
+}
+
+.relative {
+  position: relative;
+  z-index: 1;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-light {
+  color: #cbd5e1;
+}
+
+.tech-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.tech-card {
+  background: rgba(255, 255, 255, 0.05);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2.5rem;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.tech-icon {
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+
+.color-blue .tech-icon {
+  color: #60a5fa;
+}
+
+.color-orange .tech-icon {
+  color: #fb923c;
+}
+
+.color-teal .tech-icon {
+  color: #2dd4bf;
+}
+
+.color-purple .tech-icon {
+  color: #c084fc;
+}
+
+.color-dark .tech-icon {
+  color: #94a3b8;
+}
+
+.tech-title {
+  color: white;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.tech-desc {
+  color: #94a3b8;
+  line-height: 1.6;
+}
